@@ -92,4 +92,10 @@ Quantification
 
 **Transcriptomic pipeline**
 
+# Contributions and acknowledgements
 
+**Author** - Logan A Sauers
+
+**Principal Investigator** - Katharine Coyte
+
+**Pipeline testers** 
