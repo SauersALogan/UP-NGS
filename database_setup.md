@@ -1,10 +1,12 @@
 # A tutorial for setting up the databases required for UP-NGS
 
 **Introduction**
+
 UP-NGS utilizes several varying databases in order to fully finish its functionality. These include a bowtie2 index made from the genome of the specific host, GTDK database for classifying the metagenomic bins, the KEGG databse for annotating genes, etc. This tutorial will add you in utilizing the built in 
 "UP-NGS_database_setup" script to automatically download, create, and setup these databases. 
 
 **Host genome index for removing host reads**
+
 This script does the bulk of the database setup and will do so automatically as long as the proper input parameters are included. 
 
 ```
