@@ -1,4 +1,4 @@
-# UP-NGS
+# A unified pipeline for next generation sequencing (UP-NGS)
 A developmental pipeline for integrated analysis of next generational metagenomic and metatranscriptomic sequencing. The pipeline is based upon the modular structure of the metaWRAP pipeline (https://github.com/bxlab/metaWRAP/blob/master/README.md and https://doi.org/10.1186/s40168-018-0541-1) while integrating new approaches to analyzing metagenomic and metatranscriptomic sequencing. The pipeline can be used to analyze paired metagenomic and metatranscriptomic sequencing from microbiome samples, or individual metagenomic/metatranscriptomic sequencing from these samples. **This is a developmental version**
 
 # Setup
