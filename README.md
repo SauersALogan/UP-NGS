@@ -49,6 +49,7 @@ Assembly:
  - Deployment
 
 **Metagenome pipeline**
+
 Binning:
  - Determine which binners to include - *Under developement*
  - Beta testing
