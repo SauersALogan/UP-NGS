@@ -25,7 +25,6 @@ help_message () {
 	echo "genome_index  = <exact path to index created in TRANS_database_setup>"
 	echo ""
 }
-
 ```
 
 An example of what is expected for the input of this module can be found below, this will run the quality control module on tutorial data, outputting the results to the "tutorial_qc" folder. **This folder contains metagenomic and metatranscriptomic read files with 2,000,000 reads each from mice samples**.
