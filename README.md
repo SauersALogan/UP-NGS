@@ -6,13 +6,19 @@ The UP-NGS pipeline requires the following packages to successfully impliment th
   FastQC, Bowtie2,  Trimmomatic, wget, samtools
 
 The suggested method for running these scripts is to setup a conda environment for the UP-NGS pipeline. 
+ ```
   conda env create -n UP-NGS
+```
 
 Then have conda install the required dependencies
+```
   conda install trimmomatic wget bowtie2 fastqc samtools
+```
 
 To setup the scripts simple download the repository into any directory (although I suggest one which is clearly labelled and stored in a permenant location) and then run the following command to activate the setup script:
+```
   bash <path/to/UP-NGS/folder>/setup_script.sh
+```
 
 This will setup the aliases for each of the modules within the UP-NGS pipeline. The UP-NGS pipeline also utilizes several databases, to aid in convinent setup of these databases a database_setup script has been included. Before starting any analysis it is recommended that you run the UP-NGS_database_setup script.
 
