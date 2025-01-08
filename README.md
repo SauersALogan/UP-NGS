@@ -1,5 +1,9 @@
 # A unified pipeline for next generation sequencing (UP-NGS)
-A developmental pipeline by Logan Sauers and the Coyte Lab for integrated analysis of next generational metagenomic and metatranscriptomic sequencing. The pipeline is based upon the modular structure of the metaWRAP pipeline (https://github.com/bxlab/metaWRAP/blob/master/README.md and https://doi.org/10.1186/s40168-018-0541-1) while integrating new approaches to analyzing metagenomic and metatranscriptomic sequencing. The pipeline can be used to analyze paired metagenomic and metatranscriptomic sequencing from microbiome samples, or individual metagenomic/metatranscriptomic sequencing from these samples. **This is a developmental version and I do not claim ownership over any of the tools utilized by this pipeline/wrapper. When citing please also cite the individual pieces of software, listed in the setup, individually**
+A developmental pipeline by Logan Sauers and the Coyte Lab for integrated analysis of next generational metagenomic and metatranscriptomic sequencing. The pipeline is based upon the modular structure of the metaWRAP pipeline (https://github.com/bxlab/metaWRAP/blob/master/README.md and https://doi.org/10.1186/s40168-018-0541-1) while integrating new approaches to analyzing metagenomic and metatranscriptomic sequencing. The pipeline can be used to analyze paired metagenomic and metatranscriptomic sequencing from microbiome samples, or individual metagenomic/metatranscriptomic sequencing from these samples.
+
+The pipeline also integrates some of the ideas and procedures developed in metaGT (https://github.com/ablab/metaGT and https://doi.org/10.3389/fmicb.2022.981458) to construct expression tables. With additional functionality aimed at determining the gene expression of each bacterial population/absolute population size.
+
+**This is a developmental version and I do not claim ownership over any of the tools utilized by this pipeline/wrapper. When citing please also cite the individual pieces of software, listed in the setup, individually**
 
 # Setup
 The UP-NGS pipeline requires the following packages to successfully impliment the code:
@@ -92,6 +96,15 @@ Quantification
  - Deployment
 
 **Transcriptomic pipeline**
+
+Alignment to metagenomes:
+ - Annotation of metagenomic bins 
+ - Alignment to metagenoms with minimap2
+ - Transcript correction
+
+Quantification
+ - Relative expression quantification
+ - Expression/population size quantification
 
 # Contributions and acknowledgements
 
