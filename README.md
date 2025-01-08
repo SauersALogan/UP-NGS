@@ -18,55 +18,55 @@ This will setup the aliases for each of the modules within the UP-NGS pipeline. 
 
 # Current developemental goals
 Readme:
-  Introduction - *Under developement*
-  Setup - *Under developement*
-  Module descriptions
-  Benchmarking 
+  - Introduction - *Under developement*
+  - Setup - *Under developement*
+  - Module descriptions
+ -  Benchmarking 
   
 Database_setup:
-  Bowtie2 database - **Completed**
+  - Bowtie2 database - **Completed**
   
 
 Read_qc:
-  Initial Fastqc - **Completed**
-  Trimmomatic integration - **Completed**
-  Host removal integration - **Completed**
-  Final fastqc - **Completed**
-  Script to properly move and rename final fastq files - **Completed**
-  Ensure proper parallelization - **Completed**
-  Integrate RNA only/DNA only modes - *Under developement*
-  Beta testing  
-  Deployment
+ - Initial Fastqc - **Completed**
+ -  Trimmomatic integration - **Completed**
+ - Host removal integration - **Completed**
+ - Final fastqc - **Completed**
+ -  Script to properly move and rename final fastq files - **Completed**
+ - Ensure proper parallelization - **Completed**
+ - Integrate RNA only/DNA only modes - *Under developement*
+ - Beta testing  
+ - Deployment
 
 Assembly:
-  Metagenomic assembly with metaspades - *Under developement*
-  Transcriptomic assembly with rnaspades - *Under developement*
-  Ensure proper parallelization
-  Integrate RNA only/DNA only modes
-  Beta testing
-  Deployment
+ - Metagenomic assembly with metaspades - *Under developement*
+ - Transcriptomic assembly with rnaspades - *Under developement*
+ - Ensure proper parallelization
+ - Integrate RNA only/DNA only modes
+ - Beta testing
+ - Deployment
 
 **Metagenome pipeline**
 Binning:
-  Determine which binners to include - *Under developement*
-  Beta testing
-  Deployment
+ - Determine which binners to include - *Under developement*
+ - Beta testing
+ - Deployment
   
 Bin refinement:
-  Integrate CheckM
-  Develop scoring for completeness, contamination, **AND contig number + size**
-  Beta testing
-  Deployment
+ - Integrate CheckM
+ - Develop scoring for completeness, contamination, **AND contig number + size**
+ - Beta testing
+ - Deployment
   
 Dereplication and Classification:
-  Integrate dRep2 bin dereplication across all input samples
-  Beta testing
-  Deployment
+ - Integrate dRep2 bin dereplication across all input samples
+ - Beta testing
+ - Deployment
   
 Quantification
-  Determine best method for quantification
-  Beta testing
-  Deployment
+ - Determine best method for quantification
+ - Beta testing
+ - Deployment
 
 **Transcriptomic pipeline**
 
