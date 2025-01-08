@@ -76,7 +76,7 @@ Binning:
   
 Bin refinement:
  - Integrate CheckM
- - Develop scoring for completeness, contamination, **AND contig number + size**
+ - Develop scoring for completeness, contamination, and contig number + size
  - Beta testing
  - Deployment
   
