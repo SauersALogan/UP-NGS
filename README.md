@@ -18,6 +18,7 @@ This will setup the aliases for each of the modules within the UP-NGS pipeline. 
 
 # Current developemental goals
 **Overall pipeline**
+
 Readme:
   - Introduction - *Under developement*
   - Setup - *Under developement*
