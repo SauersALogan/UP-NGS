@@ -16,7 +16,7 @@ To setup the scripts simple download the repository into any directory (although
 
 This will setup the aliases for each of the modules within the UP-NGS pipeline. The UP-NGS pipeline also utilizes several databases, to aid in convinent setup of these databases a database_setup script has been included. Before starting any analysis it is recommended that you run the UP-NGS_database_setup script.
 
-# Current developemental goals
+# Current developmental goals
 **Overall pipeline**
 
 Readme:
