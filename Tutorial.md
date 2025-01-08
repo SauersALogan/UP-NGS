@@ -3,6 +3,13 @@
 This is a tutorial for the UP-NGS pipeline which was developed for the analysis of metagenomic and metatranscriptomic sequencing. This tutorial assumes you have **already followed the steps in the readme** to setup the aliases for the pipeline and **followed the information in the database setup** tutorial. 
 If you have not please exist and see both the readme and database setup tutorial.
 
+# Test and simulation data
+Download the testing and simulation data as follows
+
+```
+wget <file path>
+```
+
 # UP-NGS_read_qc
 
 This module is focused on quality control and assessment of the read quality for your input data. It utilizes fastqc to assess the initial and final quality of the DNA reads, trimmomatic to remove any remaining adaptors and poor bases, and then bowtie2 to remove any contaminating host DNA. 
