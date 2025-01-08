@@ -27,8 +27,9 @@ This will setup the aliases for each of the modules within the UP-NGS pipeline. 
 
 Testing data and tutorial:
  - Write tutorial - *Under developement*
- - Determine testing dataset - *Under developement*
+ - Determine testing dataset - **Completed**
  - Determine simulation dataset - *Under developement*
+ - Determine method for end-user to obtain testing/simulation data - *Under developement*
  - Include both in downloads folder 
  - Integrate into tutorial
 
