@@ -7,7 +7,7 @@ If you have not please exist and see both the readme and database setup tutorial
 Download the testing and simulation data as follows
 
 ```
-wget <file path>
+wget <file path> #This is still in development!!
 ```
 
 # UP-NGS_read_qc
