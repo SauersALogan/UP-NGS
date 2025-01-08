@@ -32,11 +32,11 @@ Readme:
  -  Benchmarking 
 
 Setup_script:
-  Alias setup - **Completed**
-  Allow overwrite of previous alias/UP-NGS setup - **Completed**
-  Allow users to define folder path with the setup - *Under developement*
-  Beta testing
-  Deployment 
+  - Alias setup - **Completed**
+  - Allow overwrite of previous alias/UP-NGS setup - **Completed**
+  - Allow users to define folder path with the setup - *Under developement*
+  - Beta testing
+  - Deployment 
 
 Database_setup:
   - Bowtie2 database download and indexing - **Completed**
