@@ -26,9 +26,8 @@ Readme:
  -  Benchmarking 
   
 Database_setup:
-  - Bowtie2 database - **Completed**
+  - Bowtie2 database download and indexing - **Completed**
   
-
 Read_qc:
  - Initial Fastqc - **Completed**
  -  Trimmomatic integration - **Completed**
