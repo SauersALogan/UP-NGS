@@ -16,7 +16,7 @@ This module is focused on quality control and assessment of the read quality for
 In order to run this module follow the required inputs from the help_message
 
 ```
-UP-NGS --help
+UPNGS --help
 
 help_message () {
 	echo ""
@@ -38,5 +38,5 @@ An example of what is expected for the input of this module can be found below, 
 The code below utilizes the mouse genome to remove host reads, so please follow the **in the database setup tutorial**.
 
 ```
-UP-NGS_read_qc --genome_index databases/host_index/mouse_bowtie2_index --DNA1=UP-NGS/tutorial_data/DNA_1.fq --DNA2=UP-NGS/tutorial_data/DNA_2.fq --RNA1=UP-NGS/tutorial_data/RNA_1.fq --RNA2=UP-NGS/tutorial_data/RNA_2.fq --outdir=tutorial_qc
+UPNGS_read_qc --genome_index databases/host_index/mouse_bowtie2_index --DNA1=UP-NGS/tutorial_data/DNA_1.fq --DNA2=UP-NGS/tutorial_data/DNA_2.fq --RNA1=UP-NGS/tutorial_data/RNA_1.fq --RNA2=UP-NGS/tutorial_data/RNA_2.fq --outdir=tutorial_qc
 ```
