@@ -91,7 +91,7 @@ Dereplication and Classification:
  - Deployment
   
 Quantification
- - Determine best method for quantification
+ - Determine best method for bin quantification
  - Beta testing
  - Deployment
 
