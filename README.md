@@ -25,6 +25,13 @@ This will setup the aliases for each of the modules within the UP-NGS pipeline. 
 # Current developmental goals
 **Overall pipeline**
 
+Testing data and tutorial:
+ - Write tutorial - *Under developement*
+ - Determine testing dataset - *Under developement*
+ - Determine simulation dataset - *Under developement*
+ - Include both in downloads folder 
+ - Integrate into tutorial
+
 Readme:
   - Introduction - *Under developement*
   - Setup - *Under developement*
