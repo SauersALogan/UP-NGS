@@ -29,5 +29,5 @@ help_message () {
 An example of this script follows, if you use this example it will download the Mus musculus genome and setup a bowtie2 index for it in the "database" directory:
 
 ```
-UP-NGS_database_setup --outdir=database 
+UPNGS_database_setup --outdir=database 
 ```
